@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Pull Docker Image from Docker Hub
-        run: docker pull noredineba/imagesrepository:latest
+        run: docker pull noredineba/imagesrepository1:latest
 
       - name: Stop and Remove Existing Docker Container (Windows PowerShell)
         shell: powershell
