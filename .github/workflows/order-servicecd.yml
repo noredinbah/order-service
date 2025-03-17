@@ -32,4 +32,4 @@ jobs:
 
       - name: Run Docker Container
         run: |
-          docker run -d --name myapp -p 3001:3000 noredineba/imagesrepository1:latest
+          docker run -d --name myapp -p 4000:4000 noredineba/imagesrepository1:latest
